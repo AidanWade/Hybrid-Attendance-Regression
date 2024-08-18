@@ -1,0 +1,13 @@
+SELECT 
+      [Regressor]
+      ,[Dropped Feature]
+      ,[Remaining Features]
+      ,[Explained Variance]
+      ,[R^2 Score]
+      ,[Mean Absolute Error]
+      ,[Mean Squared Error]
+      ,[Explained Variance_std]
+      ,[R^2 Score_std]
+      ,[Mean Absolute Error_std]
+      ,[Mean Squared Error_std]
+  FROM [Gold].[DimensionReductionStats]
